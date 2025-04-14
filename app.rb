@@ -32,7 +32,7 @@ get("/paper") do
 
   if @comp_move == "rock"
     @outcome = "won"
-  elsif @comp_move = "paper"
+  elsif @comp_move == "paper"
     @outcome = "tied"
   else
     @outcome = "lost"
